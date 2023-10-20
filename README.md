@@ -1,18 +1,20 @@
-O quê você irá fazer
+by José Júnior
 
+Atividade de Estrutura de Dados.
+
+#Descrição da atividade:
+
+* O quê você irá fazer
 Implemente uma estrutura de dados Árvore binária em sua linguagem de programação de escolha (Java, C#, GoLang, Python, Javascript, PHP, C++, C, Swift, Portugol). Em seguida, demonstre como percorrê-la em ordem, adicionar elementos e encontrar elementos seguindo as regras de ordenação da árvore. Para a demonstração, crie uma árvore binária com pelo menos cinco elementos e execute as operações de percurso em ordem, adição e pesquisa de elementos. Certifique-se de que a árvore permaneça válida e organizada após cada operação realizada com pequenos testes.
 
-Detalhamento
-
-Escolha uma linguagem de programação e crie a definição da Classe que representa uma Árvore Binária, com os atributos e construtor. Faça um pequeno teste para ver se é possível criar uma Árvore com alguns elementos pré-definidos (insira valores de acordo com as regras de ordenação da árvore).
-Crie uma função que percorra escrevendo na tela os valores da Árvore em ordem, que deverá visitar primeiro o filho esquerdo, percorrer o nó atual e, por fim, o filho direito. Teste a função para garantir que ela percorre todos os elementos da árvore em ordem crescente para diferentes valores iniciais.
+* Detalhamento
+Escolha uma linguagem de programação e crie a definição da Classe que representa uma Árvore Binária, com os atributos e construtor. Faça um pequeno teste para ver se é possível criar uma Árvore com alguns elementos pré-definidos (insira valores de acordo com as regras de ordenação da árvore). Crie uma função que percorra escrevendo na tela os valores da Árvore em ordem, que deverá visitar primeiro o filho esquerdo, percorrer o nó atual e, por fim, o filho direito. Teste a função para garantir que ela percorre todos os elementos da árvore em ordem crescente para diferentes valores iniciais.
 
 Criar uma função para adicionar elementos na Árvore um a um, porém ainda mantendo a propriedade de que dado um nó da árvore, descendentes à esquerda são sempre menores que descendentes à direita. Teste a função escrevendo na tela seu conteúdo após as inserções, utilizando a função de percorrer a árvore, para verificar que realmente está em ordem.
 
 Crie uma função para encontrar um elemento da Árvore. Teste se as operações de pesquisa realmente funcionam, por procurar valores e verificar se eles são ou não encontrados comparado com o conteúdo da árvore.
 
-Dicas
-
+* Dicas
 Utilize duas classes, Uma classe para representar cada elemento da árvore, contendo informações como o seu valor e as referências para seus filhos esquerdo e direito, Porém outra classe para representar a Árvore em si, possuindo apenas uma referência para a raiz.
 Para adicionar um novo elemento na árvore, comece pela raiz e desça pelos filhos recursivamente até encontrar o lugar correto de inserção, seguindo as regras de ordenação.
 Para encontrar um elemento da árvore, a lógica é parecida com adicionar um novo elemento na árvore.
